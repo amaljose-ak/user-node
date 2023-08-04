@@ -4,7 +4,7 @@ const bodyParser=require('body-parser')
 const mongoose=require('mongoose')
 // importing routes
 app=express()
-const userRegister=require('./router/user/userRegister')
+const userRegister=require('./router/user/userReg')
 
 // db connection
 mongoose.connect(process.env.DB_CONNECTION)
